@@ -40,16 +40,16 @@ All three policies were created using the Azure Portal with custom JSON definiti
 
 ## 🧪 Test Results
 
-| Test Case                                        | Expected Result | Actual Result | 
-|--------------------------------------------------|------------------|----------------|
-| Deploy VM in East US                             | ❌ Denied         | ✅ Confirmed    | 
-| Deploy Storage without `ProjectName` tag         | ❌ Denied         | ✅ Confirmed    |
-| Create a Public IP                               | ❌ Denied         | ✅ Confirmed    |
-| Deploy VM in Canada Central with `ProjectName` tag | ✅ Allowed        | ✅ Confirmed    |
+| Test Case                                        | Expected Result | Actual Result | Screenshot                |
+|--------------------------------------------------|------------------|----------------|---------------------------|
+| Deploy VM in East US                             | ❌ Denied         | ✅ Confirmed    | ![VM East US](screenshorts/US-not-allowed.png) |
+| Deploy Storage without `ProjectName` tag         | ❌ Denied         | ✅ Confirmed    | ![No Tag](screenshorts/noTag.png) |
+| Create a Public IP                               | ❌ Denied         | ✅ Confirmed    | ![Public IP](screenshorts/publicIP-notallowed.png) |
+| Deploy VM in Canada Central with `ProjectName` tag | ✅ Allowed        | ✅ Confirmed    | ![Valid VM](screenshorts/Canada-allowed.png) |
 
 ## 🎥 Video Demonstration
 
-▶️ [Click to Watch Demo (YouTube)](https://youtu.be/YOUR_VIDEO_ID_HERE)
+▶️ [Click to Watch Demo (YouTube)](https://youtu.be/BH6m8XWg_z0)
 
 > This video showcases policy definitions, initiative setup, and deployment testing, concluding with key takeaways.
 
@@ -68,6 +68,7 @@ All three policies were created using the Azure Portal with custom JSON definiti
 │   ├── Only-CanadaCentral.json
 │   ├── Require-ProjectName-Tag.json
 │   ├── Deny-Public-IP.json
+│   ├── MapleTech-Secure-Foundation-Initiative.json
 │
 ├── README.md
 ```
