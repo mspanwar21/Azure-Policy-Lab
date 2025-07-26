@@ -68,7 +68,6 @@ All three policies were created using the Azure Portal with custom JSON definiti
 │   ├── Only-CanadaCentral.json
 │   ├── Require-ProjectName-Tag.json
 │   ├── Deny-Public-IP.json
-│   ├── MapleTech-Secure-Foundation-Initiative.json
 │
 ├── README.md
 ```
