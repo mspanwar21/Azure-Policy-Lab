@@ -42,10 +42,10 @@ All three policies were created using the Azure Portal with custom JSON definiti
 
 | Test Case                                        | Expected Result | Actual Result | Screenshot                |
 |--------------------------------------------------|------------------|----------------|---------------------------|
-| Deploy VM in East US                             | ❌ Denied         | ✅ Confirmed    | ![VM East US](screenshorts/US-not-allowed.png) |
-| Deploy Storage without `ProjectName` tag         | ❌ Denied         | ✅ Confirmed    | ![No Tag](screenshorts/noTag.png) |
-| Create a Public IP                               | ❌ Denied         | ✅ Confirmed    | ![Public IP](screenshorts/publicIP-notallowed.png) |
-| Deploy VM in Canada Central with `ProjectName` tag | ✅ Allowed        | ✅ Confirmed    | ![Valid VM](screenshorts/Canada-allowed.png) |
+| Deploy VM in East US                             | ❌ Denied         | ✅ Confirmed    | ![VM East US](screenshots/US-not-allowed.png) |
+| Deploy Storage without `ProjectName` tag         | ❌ Denied         | ✅ Confirmed    | ![No Tag](screenshots/noTag.png) |
+| Create a Public IP                               | ❌ Denied         | ✅ Confirmed    | ![Public IP](screenshots/publicIP-notallowed.png) |
+| Deploy VM in Canada Central with `ProjectName` tag | ✅ Allowed        | ✅ Confirmed    | ![Valid VM](screenshots/Canada-allowed.png) |
 
 ## 🎥 Video Demonstration
 
