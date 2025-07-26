@@ -40,12 +40,12 @@ All three policies were created using the Azure Portal with custom JSON definiti
 
 ## 🧪 Test Results
 
-| Test Case                                        | Expected Result | Actual Result | Screenshot                |
-|--------------------------------------------------|------------------|----------------|---------------------------|
-| Deploy VM in East US                             | ❌ Denied         | ✅ Confirmed    | ![VM East US](screenshots/vm-eastus-denied.png) |
-| Deploy Storage without `ProjectName` tag         | ❌ Denied         | ✅ Confirmed    | ![No Tag](screenshots/storage-no-tag-denied.png) |
-| Create a Public IP                               | ❌ Denied         | ✅ Confirmed    | ![Public IP](screenshots/public-ip-denied.png) |
-| Deploy VM in Canada Central with `ProjectName` tag | ✅ Allowed        | ✅ Confirmed    | ![Valid VM](screenshots/vm-canada-central-allowed.png) |
+| Test Case                                        | Expected Result | Actual Result | 
+|--------------------------------------------------|------------------|----------------|
+| Deploy VM in East US                             | ❌ Denied         | ✅ Confirmed    | 
+| Deploy Storage without `ProjectName` tag         | ❌ Denied         | ✅ Confirmed    |
+| Create a Public IP                               | ❌ Denied         | ✅ Confirmed    |
+| Deploy VM in Canada Central with `ProjectName` tag | ✅ Allowed        | ✅ Confirmed    |
 
 ## 🎥 Video Demonstration
 
@@ -68,7 +68,6 @@ All three policies were created using the Azure Portal with custom JSON definiti
 │   ├── Only-CanadaCentral.json
 │   ├── Require-ProjectName-Tag.json
 │   ├── Deny-Public-IP.json
-│   ├── MapleTech-Secure-Foundation-Initiative.json
 │
 ├── README.md
 ```
